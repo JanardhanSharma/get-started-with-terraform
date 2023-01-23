@@ -7,6 +7,10 @@ variable "quantity" {
   type = number
 }
 
+provider "hashicups" {
+  username = "JD"
+  password = "demo-password"
+}
 
 resource "hashicups_order" "this" {
   dynamic "items" {

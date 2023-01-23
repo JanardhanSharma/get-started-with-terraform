@@ -8,10 +8,7 @@ terraform {
 }
 
 
-provider "hashicups" {
-  username = "JohnDoe"
-  password = "JohnDoe"
-}
+
 
 
 variable "quantity" {
