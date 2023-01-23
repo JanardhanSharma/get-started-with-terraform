@@ -38,7 +38,7 @@ output "ids" {
 module "hashicups-module" {
   source     = "./modules/hashicups-module"
   quantity   = 1
-  coffee-ids = [1,2]
+  coffee-ids = local.ids
 }
 
 output "created-order" {
